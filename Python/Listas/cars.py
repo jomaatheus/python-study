@@ -22,6 +22,8 @@ print(cars)
 cars.reverse()
 #Para inverter a ordem original de uma lista, podemos usar o método reverse().
 #reverse() não reorganiza em ordem alfabética inversa; elesimplesmente inverte a ordem da lista.
-print(cars)
+print(cars, '\n')
 #O método reverse() muda a ordem de uma lista de forma permanente, mas podemos restaurar a ordem original a
 #qualquer momento aplicando reverse() à mesma lista uma segunda vez.
+print(len(cars))
+#Podemos rapidamente descobrir o tamanho de uma lista usando a função len()
